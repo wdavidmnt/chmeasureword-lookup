@@ -196,13 +196,11 @@ measure-word-lookup/
 | long_objects | Long flexible objects | Obiecte lungi și flexibile |
 | flat_objects | Flat surface objects | Obiecte cu suprafață plată |
 | clothing | Clothing and gift items | Îmbrăcăminte și cadouri |
-```
 
-```
 | buildings | Buildings and rooms | Clădiri și camere |
-```
 
-```
+
+
 | vehicles | Vehicles and machines | Vehicule și mașini |
 ```
 
@@ -266,7 +264,7 @@ measure-word-lookup/
 
 ```
 Measure word data was researched and verified from the following sources:
-```
+
 
 - `MDBG Chinese Dictionary (mdbg.net) — Mandarin data` 
 
