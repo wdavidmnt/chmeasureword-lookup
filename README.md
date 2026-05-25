@@ -110,45 +110,34 @@ g++ main.cpp dictionary.cpp -o measure-word-lookup
 
 ```
 ## How to use it
-```
 
-```
 When you run the program you will be asked two questions.
-```
 
-```
 First, choose your interface language:
 Select language / Selectati limba:
-```
 
-```
 Romana
 English
-```
 
-```
+
 Second, choose which Chinese variety to look up:
-```
 
-```
 Mandarin
 Cantonese
 Hokkien
 All (compare all three)
-```
 
-```
+
+
 The program then displays all available categories. Type any category
 name to look it up:
 Available categories:
-```
 
-```
 animals → Animals and paired objects
 books → Books and bound objects
 drinks → Drinks in cups or glasses
-...
-```
+
+etc.
 
 `Enter a category: books Category:   Books and bound objects Example:    one book Nouns:      book, notebook, magazine, dictionary, comic MANDARIN:` 本 `(běn)` 一本書 `(yī běn shū) CANTONESE:` 本 `(bun2)` 一本書 `(yat1 bun2 syu1) HOKKIEN:` 本 `(pún)` 一本冊 `(tsiLt pún tsheh) Type `quit` in English or `iesire` in Romanian to exit the program.` 
 
@@ -173,92 +162,39 @@ measure-word-lookup/
 
 ```
 ## Categories covered
-```
 
-```
 | Key | English name | Romanian name |
-```
-
-```
-|---|---|---|
-```
-
-```
+--------------------------------------
 | general | General / People | General / Oameni |
-```
-
-```
 | books | Books and bound objects | Cărți și obiecte legate |
-```
-
-```
 | animals | Animals and paired objects | Animale și obiecte pereche |
 | long_objects | Long flexible objects | Obiecte lungi și flexibile |
 | flat_objects | Flat surface objects | Obiecte cu suprafață plată |
 | clothing | Clothing and gift items | Îmbrăcăminte și cadouri |
-
 | buildings | Buildings and rooms | Clădiri și camere |
-
-
-
 | vehicles | Vehicles and machines | Vehicule și mașini |
-```
-
-```
 | drinks | Drinks in cups or glasses | Băuturi în cești sau pahare |
-```
-
-```
 | large_objects | Large and grand objects | Obiecte mari și grandioase |
-```
-
-```
 | small_round | Small round objects | Obiecte mici și rotunde |
-```
-
-```
 | flowers | Flowers and clouds | Flori și nori |
-```
-
-```
 | trees | Trees and plants | Copaci și plante |
-```
-
-```
 | polite_people | People polite form | Oameni formă politicoasă |
-```
-
-```
 | groups | Groups of people or animals | Grupuri de oameni sau animale |
-```
-
-```
 | letters | Letters and sealed items | Scrisori și obiecte sigilate |
-```
-
-```
 | drops | Drops of liquid | Picături de lichid |
-```
-
-```
 | packages | Packages and bundles | Pachete și legături |
-```
-
-```
 | pairs | Pairs of objects | Perechi de obiecte |
-```
+| long_rigid | Long rigid and stick-like objects | Obiecte lungi rigide și cilindrice |` 
 
-- `| long_rigid | Long rigid and stick-like objects | Obiecte lungi rigide și cilindrice |` 
+| machinery_vehicles | Heavy machinery and vehicles | Utilaje și vehicule mari |` 
 
-- `| machinery_vehicles | Heavy machinery and vehicles | Utilaje și vehicule mari |` 
+| thin_slices | Thin slices or pieces | Felii subțiri sau bucăți tăiate |` 
 
-- `| thin_slices | Thin slices or pieces | Felii subțiri sau bucăți tăiate |` 
+| sets_series | Sets, suites and series | Seturi, serii și colecții |` 
 
-- `| sets_series | Sets, suites and series | Seturi, serii și colecții |` 
 
-```
 ---
-```
+
 
 ## `## Data sources` 
 
@@ -288,16 +224,15 @@ create a tool for Chinese learning with a bilingual interface because there are
 rarely any projects like these, from each more sides could benefit. Most popular
 tools are exclusively in English but there are people who cannot understand
 English that well.
-```
+`
 
-```
 The project covers three Chinese varieties simultaneously, which is unusual even
 amongst professional Chinese language learning tools. Most tools focus
 exclusively on Mandarin. Including Cantonese and Hokkien reflects the real
 linguistic diversity of the Chinese-speaking world.
-```
+
 ---
-```
+
 
 ## `## Author` 
 
