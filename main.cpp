@@ -14,12 +14,12 @@ int main() {
     system("chcp 65001 > nul");
     #endif
 
-    // Pas 1 — pick interface language
+    // Pas 1 â€” pick interface language
     int interface_choice;
-    std::cout << "Select language / Selectati limba:\n";
-    std::cout << "1. Romana\n";
+    std::cout << "Select language / SelectaÈ›i limba:\n";
+    std::cout << "1. RomÃ¢na\n";
     std::cout << "2. English\n";
-    std::cout << "\nEnter / Introduceti: ";
+    std::cout << "\nEnter / IntroduceÈ›i: ";
     std::cin >> interface_choice;
 
     // Validate interface choice
@@ -28,13 +28,13 @@ int main() {
         interface_choice = 2;
     }
 
-    // Pas 2 — load messages in chosen language
+    // Pas 2 â€” load messages in chosen language
     Language lang = loadLanguage(interface_choice);
 
-    // Pas 3 — show title
+    // Pas 3 â€” show title
     std::cout << "\n" << lang.title << "\n";
 
-    // Pas 4 — pick Chinese variety
+    // Pas 4 â€” pick Chinese variety
     int chinese_choice;
     std::cout << lang.select_chinese;
     std::cout << lang.option_mandarin;
@@ -50,13 +50,13 @@ int main() {
         chinese_choice = 4;
     }
 
-    // Pasul 5 — load dictionary
+    // Pasul 5 â€” load dictionary
     std::map<std::string, Entry> dict = loadDictionary();
 
-    // Pasul 6 — show all available categories
+    // Pasul 6 â€” show all available categories
     showCategories(dict, lang, interface_choice);
 
-    // Pasul 7 — main loop
+    // Pasul 7 â€” main loop
     std::string input;
     while (true) {
         std::cout << lang.enter_category;
