@@ -191,20 +191,16 @@ measure-word-lookup/
 | packages | Packages and bundles | Pachete și legături |
 | pairs | Pairs of objects | Perechi de obiecte |
 | long_rigid | Long rigid and stick-like objects | Obiecte lungi rigide și cilindrice |` 
-
 | machinery_vehicles | Heavy machinery and vehicles | Utilaje și vehicule mari |` 
-
 | thin_slices | Thin slices or pieces | Felii subțiri sau bucăți tăiate |` 
-
 | sets_series | Sets, suites and series | Seturi, serii și colecții |` 
-
 
 ---
 
 
 ## `## Data sources` 
 
-```
+
 Measure word data was researched and verified from the following sources:
 
 
@@ -238,22 +234,21 @@ exclusively on Mandarin. Including Cantonese and Hokkien reflects the real
 linguistic diversity of the Chinese-speaking world.
 
 ---
-
+```
 
 ## `## Author` 
 
-```
 **Munteanu David Ioan**
 [May 2026]
 ```
 
 ```
----
-```
 
 ## `## License` 
 
-```
 This project is open source and free to use for educational purposes.
 ```
+##Note
+```
+Contributions are welcome, especially for native Cantonese and Hokkien speakers who can verify or expand the word data. !!No coding required for data contributions!!
 
